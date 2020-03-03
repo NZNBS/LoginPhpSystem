@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="login">false</item>
+	<item type="id" name="mrz_relay">false</item>
+	<item type="id" name="mrz_lay">false</item>
+	<item type="id" name="mrz_name">false</item>
+	<item type="id" name="mrz_psw">false</item>
+	<item type="id" name="sign_btn">false</item>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.mreoz" platformBuildVersionCode="29" platformBuildVersionName="10">
+    //Copy and paste this permission into manifest modded game
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	
+    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        
+		//Copy and paste this two activitys into manifest modded game
+		<service android:enabled="true" android:exported="true" android:name="com.mreoz.FloatingActivityService"/>
+        <activity android:name="com.mreoz.MRZPHP" android:screenOrientation="portrait"/>
+    
+	
+	</application>
+</manifest>
