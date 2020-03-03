@@ -1,5 +1,5 @@
-## PUBGPatcher
-Login System for modded apk, Made by MRZ
+## Android Studio Source
+- Made by MRZ
  
 ## **Note**:
 - Support 64 bits & 32bits
