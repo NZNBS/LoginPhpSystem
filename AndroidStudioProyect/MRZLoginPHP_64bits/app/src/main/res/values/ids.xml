@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sign_btn" type="id" />
+    <item name="mrz_psw" type="id" />
+    <item name="mrz_name" type="id" />
+</resources>
