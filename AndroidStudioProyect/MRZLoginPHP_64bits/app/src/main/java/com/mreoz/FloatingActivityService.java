@@ -60,13 +60,15 @@ public class FloatingActivityService extends Service {
 
     private LinearLayout view2;
 
-    private String expire;
+    public String expire = "DTEXPIRE";
 
     private String Title(){
         return "MRZ - MOD MENU";
     }
     private String Credits(){
-        return "Expiry time: " +expire;
+        Prefs prefs = Prefs.with(getBaseContext());
+        String lol = prefs.read(expire, "");
+        return "Expiry time: " + lol.replaceAll(" 00:00:00","");
     }
 
     private void Thread() {
@@ -404,7 +406,8 @@ public class FloatingActivityService extends Service {
 
     public int onStartCommand(Intent paramIntent, int paramInt1, int paramInt2) {
         this.expire = paramIntent.getStringExtra("EXPIRY");
-        return START_NOT_STICKY; }
+        return START_NOT_STICKY;
+    }
 
     public void onTaskRemoved(Intent paramIntent) {
         stopSelf();
