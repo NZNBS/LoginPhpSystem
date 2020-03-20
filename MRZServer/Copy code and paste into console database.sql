@@ -13,7 +13,7 @@ CREATE TABLE `tokens` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `tokens` (`Username`, `Password`, `StartDate`, `EndDate`, `UID`, `Expiry`) VALUES
-('MrEoZ', 'mrz', NULL, NULL, NULL, NULL);
+('MrEoZ', 'mrz', NULL, NULL, NULL, 0);
 
 ALTER TABLE `tokens`
   ADD UNIQUE KEY `Username` (`Username`,`Password`);
