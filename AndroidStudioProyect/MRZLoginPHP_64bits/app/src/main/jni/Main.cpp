@@ -32,7 +32,7 @@ extern "C"
 JNIEXPORT jobjectArray JNICALL Java_com_mreoz_FloatingActivityService_getListFT(JNIEnv *env, jobject jobj){
     jobjectArray ret;
     int i;
-    int Total_Feature = 18;
+    int Total_Feature = 3;
     const char *features[]= {"TG_EXAMPLE1",
                              "TG_EXAMPLE2",
                              "SB_EXAMPLE3_0_2"};
