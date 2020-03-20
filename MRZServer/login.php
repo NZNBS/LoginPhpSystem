@@ -109,7 +109,7 @@ if($res["EndDate"] < $res["StartDate"]){
 $ackdata = array(
     "Status" => "Success",
     "MessageString" => "",
-    "SubscriptionLeft" => $res["Expiry"]
+    "SubscriptionLeft" => $res["EndDate"]
 );
 
 echo tokenResponse($ackdata);
