@@ -151,7 +151,6 @@ public class Auth extends AsyncTask<String, Void, String> {
                 } else {
                     if (!isServiceRunning()) {
                         Intent intent = new Intent(getActivity(), FloatingActivityService.class);
-                        Toast.makeText(getActivity(),data.get("SubscriptionLeft").toString(),Toast.LENGTH_LONG).show();
                         intent.putExtra("EXPIRY", data.get("SubscriptionLeft").toString());
                         prefs.write(expire, data.get("SubscriptionLeft").toString());
                         getActivity().startService(intent);
