@@ -1,4 +1,4 @@
-## PHPLoginSystem For Mod apk
+## PHP Login System For Mod apk
 Login System for modded apk, Made by MRZ
  
 ## **Note**:
