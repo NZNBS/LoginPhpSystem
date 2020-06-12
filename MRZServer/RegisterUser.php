@@ -46,7 +46,7 @@ body {
 <script src='https://cdnjs.cloudflare.com/ajax/libs/parsley.js/1.2.2/parsley.min.js'></script>
  
 <?php   // this code is use to insert the form details and register and expiration date
-include 'DB.php';
+include 'dbconfig.php';
 include 'Global.php';
 if(isset($_POST['register'])){
 $Username = $_POST['firstname'];
