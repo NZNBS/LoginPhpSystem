@@ -1,1 +1,1 @@
-<?php $con = mysqli_connect('localhost','root','','technopoints'); ?>
+<?php $con = mysqli_connect('host','username','password','database'); ?>
