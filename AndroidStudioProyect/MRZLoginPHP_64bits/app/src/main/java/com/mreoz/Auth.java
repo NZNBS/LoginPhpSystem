@@ -158,6 +158,7 @@ public class Auth extends AsyncTask<String, Void, String> {
                         Toast.makeText(getActivity(), "Service Already Running!", Toast.LENGTH_SHORT).show();
                     }
                 }
+                getActivity().finish();
             } else {
                 Toast.makeText(activity,data.get("MessageString").toString(), Toast.LENGTH_LONG).show();
             }
