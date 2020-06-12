@@ -1,9 +1,4 @@
 <?php
-//api url filter
-if(strpos($_SERVER['REQUEST_URI'],"login.php") || !isset($_POST['token'])){
-    require_once 'Utils.php';
-    PlainDie();
-}
 
 include 'init.php';
 
