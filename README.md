@@ -2,7 +2,6 @@
 Login System for modded apk, Made by MRZ
  
 ## **Note**:
-- This project costs $50usd
 - After obtaining the project, questions are not accepted
 
 ## **Characteristics**:
