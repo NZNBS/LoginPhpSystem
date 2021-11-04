@@ -1,4 +1,5 @@
 ## PHP Login System For Mod apk
+This is the original project on which all the Login Php for android were based
 Login System for modded apk, Made by MRZ
  
 ## **Note**:
@@ -8,9 +9,7 @@ Login System for modded apk, Made by MRZ
 
 - JNI optimized and rendered
 - Injection already dedicated for placement becomes easier
-- Auto Obfusher NOT INCLUDED (+10usd If you want to include it)
 - MRZServer folder included to upload it to your domain and adapt your database with our php files
-- This project is made for own sale, any resale or unauthorized use of this project will be demanded.
 
 Atte: MRZ programming team
 
